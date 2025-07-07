@@ -68,8 +68,8 @@ class ProfilePage extends StatelessWidget {
             showDialog(
               context: context,
               builder: (context) => AlertDialog(
-                title: const Text('Download Resume'),
-                content: const Text('Your resume is being downloaded'),
+                title: const Text('Connect on LinkedIn'),
+                content: const Text('You can connect with me at https://www.linkedin.com/in/ayush-sharma3011/'),
                 actions: [
                   TextButton(
                     onPressed: () => Navigator.of(context).pop(),
