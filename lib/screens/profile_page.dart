@@ -18,10 +18,10 @@ class ProfilePage extends StatelessWidget {
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Padding(
-          padding: const EdgeInsets.all(25.0),
-          child: Image.asset('assets/profile.png',height: 150,),
-          ),
+        CircleAvatar(
+          radius: 70,
+          backgroundImage: const AssetImage('assets/profile.png'),
+        ),
         const SizedBox(height: 16),
         const Text(
           'Ayush Sharma',
